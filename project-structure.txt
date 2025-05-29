@@ -1,0 +1,51 @@
+inventory-management-system/
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── dashboard/
+│   │   │   │   ├── Dashboard.jsx
+│   │   │   │   ├── StatsCards.jsx
+│   │   │   │   ├── InventoryChart.jsx
+│   │   │   │   ├── LowStockAlerts.jsx
+│   │   │   │   └── RecentOrders.jsx
+│   │   │   └── ui/
+│   │   │       ├── Button.jsx
+│   │   │       ├── Card.jsx
+│   │   │       └── Badge.jsx
+│   │   ├── styles/
+│   │   │   ├── index.css
+│   │   │   └── components.css
+│   │   ├── utils/
+│   │   │   └── helpers.js
+│   │   ├── App.jsx
+│   │   └── index.js
+│   ├── package.json
+│   └── tailwind.config.js
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   ├── productController.js
+│   │   │   ├── orderController.js
+│   │   │   └── inventoryController.js
+│   │   ├── models/
+│   │   │   ├── Product.js
+│   │   │   ├── Order.js
+│   │   │   └── Inventory.js
+│   │   ├── routes/
+│   │   │   ├── productRoutes.js
+│   │   │   ├── orderRoutes.js
+│   │   │   └── inventoryRoutes.js
+│   │   ├── config/
+│   │   │   └── database.js
+│   │   ├── middleware/
+│   │   │   ├── auth.js
+│   │   │   └── errorHandler.js
+│   │   └── app.js
+│   ├── package.json
+│   └── .env
+│
+└── README.md 
